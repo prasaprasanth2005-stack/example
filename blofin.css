@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap");
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.922);
+    /* border: 1px solid red; */
+}
+
+.navBar {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-bottom:15rem;
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    font-family: "Nunito Sans", serif;
+    font-size: 2rem;
+    color: white;
+}
+
+.card {
+    color: white;
+}
+
+.welcome {
+    font-family: "Nunito Sans", serif;
+    font-size: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.border {
+    width: 10rem;
+    border-bottom: 15px solid orange;
+    margin-left: 45rem;
+}
+
+.card h6 {
+    font-family: "Nunito Sans", serif;
+    width: 70%;
+    color: gray;
+    font-size: 3rem;
+    font-weight: 300;
+    margin-top: 1rem;
+    padding-bottom: 5rem;
+}
+
+.blofinContent {
+    margin-left: 45rem;
+}
+
+.card h3 {
+    font-family: "Nunito Sans", serif;
+    color: white;
+    font-size: 3rem;
+    margin-top: 1rem;
+    margin-left: 45rem;
+}

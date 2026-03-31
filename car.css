@@ -1,0 +1,953 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-wrap: pretty;
+    /* border: 1px solid red; */
+}
+
+html {
+    color: #be9c79;
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3,
+h4,
+h6,
+p {
+    text-wrap: balance;
+}
+
+input,
+textarea,
+button {
+    font-family: inherit;
+    font-size: inherit;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+    /* height: auto; */
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+header {
+    /* background-color: #13c6bd; */
+    width: 100%;
+    /* Full Screensize */
+    height: auto;
+    /* content Height */
+    background-color: lightgray;
+}
+
+main {
+    /* background-color: #ffbf00; */
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    /* background-color: #89f357; */
+    width: 100%;
+    height: auto;
+}
+
+h1 {
+    color: black;
+    font-family: "Nunito Sans", serif;
+    font-size: 6.5rem;
+    font-weight: 800;
+}
+
+h2 {
+    color: black;
+    font-family: "Nunito Sans", serif;
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+h3 {
+    color: black;
+    font-family: "Nunito Sans", serif;
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+h4 {
+    color: #343a40;
+    font-family: "Nunito Sans", serif;
+    font-size: 2rem;
+}
+
+p {
+    color: #343a40;
+    font-family: "Nunito Sans", serif;
+    font-size: 1.5rem;
+}
+
+button {
+    background-color: #bf9c79;
+    font-family: "Nunito Sans", serif;
+    border: #bf9c79;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+}
+
+/* navBar start */
+.navBar {
+    padding: 2rem 0rem;
+}
+
+.navContainer {
+    max-width: auto;
+    margin: auto;
+    padding-left: 8rem;
+}
+
+.navBody {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0rem 2rem;
+    gap: 3rem;
+}
+
+.navBlock1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+li {
+    font-family: "Nunito Sans", serif;
+    font-size: 3rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: black;
+    margin-left: 1rem;
+    padding: 0rem 5rem;
+}
+
+.logo {
+    width: 10rem;
+    padding: 2rem 0rem;
+}
+
+.FAQ {
+    color: whitesmoke;
+    background-color: black;
+    padding: 1rem 2rem;
+}
+
+/* navBar end */
+
+/*hero start*/
+.herosection {
+    padding: 2rem 0rem;
+}
+
+.heroContainer {
+    max-width: auto;
+    margin: auto;
+}
+
+.heroBody {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 2rem;
+    gap: 3rem;
+    padding: 10rem 0rem;
+}
+
+.heroBox {
+    display: flex;
+    /* without this wont work */
+    align-items: center;
+    /* top & bottom Alignment */
+    justify-content: start;
+    text-align: center;
+    /* left & right Alignment */
+}
+
+.hero h1 {
+    font-family: "Nunito Sans", serif;
+    font-size: 7rem;
+    font-weight: 600;
+}
+
+.hero p {
+    font-family: "Nunito Sans", serif;
+    font-size: 7rem;
+    display: flex;
+    text-align: start;
+}
+
+.heroBtn {
+    padding: 5rem 0rem;
+}
+
+.button {
+    font-family: "Nunito Sans", serif;
+    color: whitesmoke;
+    background-color: red;
+    width: 50rem;
+    font-size: 2.5rem;
+    padding: 2.5rem;
+}
+
+.heroBlock {
+    padding-bottom: 30rem;
+    margin-left: 7rem;
+}
+
+.brownCarBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.brownCarBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.brownCar {
+    width: 120rem;
+    margin-left: 6rem;
+}
+
+.modelBlock {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 5rem;
+    gap: 13rem;
+}
+
+.modelBody {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 10rem 2rem;
+    gap: 3rem;
+}
+
+.model1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 10rem;
+    height: 5rem;
+}
+
+.ferrari {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.model2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 14rem;
+    height: 5rem;
+}
+
+.BMW {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.model3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 14rem;
+    height: 4rem;
+}
+
+.Mercedes-Benz {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.model4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 15rem;
+    height: 8rem;
+}
+
+.ferrari {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.model5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 15rem;
+    height: 5rem;
+}
+
+.ferrari {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/*hero end*/
+
+/*performance start*/
+
+.performance {
+    padding: 2rem 0rem;
+}
+
+.performanceContainer {
+    max-width: 2000px;
+    margin: auto;
+}
+
+.performanceBody {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 2rem 2rem;
+}
+
+.performanceBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 50rem 0rem;
+}
+
+.performnce h2 {
+
+    font-family: "Nunito Sans", serif;
+    font-size: 10rem;
+}
+
+/*performance end*/
+
+/*beauty start*/
+
+.beauty {
+    padding: 2rem 0rem;
+}
+
+.beautyContainer {
+    max-width: auto;
+    margin: auto;
+}
+
+.beautyBody {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 3rem;
+    row-gap: 1rem 0rem;
+    gap: 2.5rem;
+    padding: 1rem 2rem;
+    padding-bottom: 40rem;
+}
+
+.beautyBlock {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    text-align: center;
+    background-color: orangered;
+}
+
+.styleBlock {
+    display: flex;
+    justify-content: center;
+    padding-left: 20rem;
+    background-color: yellow;
+    margin-left: 6rem;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+
+.carBlock {
+    display: flex;
+    justify-content: end;
+    background-color: yellow;
+}
+
+.car1 {
+    width: 100rem;
+}
+
+.car2 {
+    width: 30rem;
+    height: 15rem;
+}
+
+.Lamborghini h3 {
+    font-family: "Nunito Sans", serif;
+    font-size: 5rem;
+    font-weight: 500;
+}
+
+.Lamborghini p {
+    font-family: "Nunito Sans", serif;
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+/*beauty end*/
+
+/* offer start */
+
+.offer {
+    padding: 2rem 0rem;
+    background-color: brown;
+
+}
+
+.offerContainer {
+    max-width: 2000px;
+    margin: auto;
+}
+
+.offerBody {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 1rem 2rem;
+    column-gap: 3rem;
+}
+
+.offerBlock {
+    display: flex;
+    justify-content: start;
+}
+
+.offer h4 {
+    font-family: "Nunito Sans", serif;
+    font-size: 5rem;
+    font-weight: 500;
+    color: black;
+}
+
+.offer h5 {
+    font-family: "Nunito Sans", serif;
+    font-size: 3rem;
+    font-weight: 500;
+    color: black;
+}
+
+/* offer end */
+
+/* new start */
+
+.new {
+    padding: 2rem 0rem;
+}
+
+.newContainer {
+    max-width: auto;
+    margin: auto;
+}
+
+.newCarBox {
+    background: linear-gradient(90deg, rgb(40, 40, 40), transparent 70%), url(./assests/images/car-3.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 1rem 1rem;
+    padding: 60rem 0rem;
+    /* padding-right: 125rem; */
+}
+
+.newBody {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 1rem 2rem;
+}
+
+.newBlock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 20rem;
+    padding-bottom: 20rem;
+}
+
+.new h2 {
+    font-family: "Nunito Sans", serif;
+    font-size: 6rem;
+    font-weight: 700;
+    padding: 20rem 0rem;
+}
+
+/* new end */
+
+/* count start  */
+
+.count {
+    padding: 2rem 0rem;
+}
+
+.countContainer {
+    max-width: auto;
+    margin: auto;
+}
+
+.countBody {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2rem;
+    row-gap: 1.5rem;
+    gap: 2rem;
+}
+
+.countBox {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    text-align: center;
+}
+
+.countCar4 {
+    padding: 0rem 10rem;
+}
+
+.countBox2 {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    text-align: center;
+}
+
+/* count end */
+
+
+/* copyRight start */
+
+
+.copyRight {
+    padding: 2rem 0rem;
+}
+
+.copyRight {
+    max-width: auto;
+    margin: auto;
+}
+
+.copyRightBody {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 2rem;
+    row-gap: 1.5rem;
+    gap: 20rem;
+
+    font-family: "Nunito Sans", serif;
+    font-size: 6rem;
+    font-weight: 700;
+    padding: 20rem 0rem;
+}
+
+.copyRightBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    text-align: center;
+}
+
+.copyRightBox1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.copyRight p {
+    font-family: "Nunito Sans", serif;
+    font-size: 3rem;
+    font-weight: 500;
+    padding: 1rem;
+}
+
+.copyRightBody h3 {
+    font-size: 4rem;
+}
+
+/* copyRight end */
+
+@media (max-width:576px) {
+
+    .grid-1,
+    .grid-2,
+    .grid-3,
+    .grid-4 {
+        grid-template-columns: 1fr;
+        padding: 0rem 1rem;
+    }
+
+    .logo {
+        width: 5rem;
+        padding: 1rem 0rem;
+    }
+
+    .navBox1 li {
+        font-size: 1.5rem;
+        display: flex;
+        justify-content: end;
+    }
+
+    .heroBox {
+        display: flex;
+        justify-content: start;
+    }
+
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero p {
+        font-size: 1.5rem;
+    }
+
+    .heroBlock .button {
+        width: 20rem;
+        font-size: 1.5rem;
+        padding: 1rem;
+    }
+
+    .brownCar {
+        width: 100%;
+        margin-left: 0rem;
+    }
+
+    .modelBlock {
+        flex-direction: column;
+        gap: 5rem;
+    }
+
+    .model1,
+    .model2,
+    .model3,
+    .model4,
+    .model5 {
+        width: 100%;
+        height: auto;
+    }
+
+    .modelBlock {
+        font-size: 3rem;
+        margin-left: 13rem;
+    }
+
+    .performanceBox h2 {
+        font-size: 4rem;
+    }
+
+
+
+    .styleBlock {
+        padding-left: 0rem;
+        margin-left: 0rem;
+    }
+
+    .carBlock {
+        justify-content: center;
+    }
+
+    .car1 {
+        width: 100%;
+    }
+
+    .car2 {
+        width: 100%;
+        height: auto;
+    }
+
+    .styleBlock {
+        padding-left: 1rem;
+    }
+
+    .beautyBlock h3 {
+        font-size: 2rem;
+    }
+
+    .styleBlock h3 {
+        font-size: 3.5rem;
+    }
+
+    .styleBlock p {
+        font-size: 1.5rem;
+    }
+
+    .offerBlock {
+        justify-content: center;
+    }
+
+    .offerBlock h4 {
+        font-size: 3rem;
+    }
+
+    .offerBlock h5 {
+        font-size: 1.5rem;
+    }
+
+    .newBlock h2 {
+        font-size: 3rem;
+    }
+
+    .newCarBox {
+        padding-right: 0rem;
+    }
+
+    .copyRightBody h3 {
+        font-size: 3.5rem;
+    }
+}
+
+@media(min-width:577px) and (max-width:768px) {
+
+    .grid-1,
+    .grid-3,
+    .grid-4 {
+        grid-template-columns: 1fr 1fr;
+        padding: 0rem 1rem;
+    }
+
+    .grid-2 {
+        grid-template-columns: 1fr;
+        padding: 0rem 1rem;
+    }
+
+    .logo {
+        width: 5rem;
+        padding: 1rem 0rem;
+    }
+
+    .navBox1 li {
+        font-size: 1.5rem;
+        display: flex;
+        justify-content: end;
+    }
+
+    .heroBox {
+        display: flex;
+        justify-content: start;
+    }
+
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero p {
+        font-size: 1.5rem;
+    }
+
+    .heroBlock .button {
+        width: 20rem;
+        font-size: 1.5rem;
+        padding: 1rem;
+    }
+
+    .brownCar {
+        width: 100%;
+        margin-left: 0rem;
+    }
+
+    .modelBlock {
+        flex-direction: column;
+        gap: 5rem;
+    }
+
+    .model1,
+    .model2,
+    .model3,
+    .model4,
+    .model5 {
+        width: 100%;
+        height: auto;
+    }
+
+    .modelBlock {
+        font-size: 3rem;
+        margin-left: 22rem;
+    }
+
+    .performanceBox h2 {
+        font-size: 4rem;
+    }
+
+    .carBlock {
+        justify-content: center;
+    }
+
+    .car1 {
+        width: 100%;
+    }
+
+    .car2 {
+        width: 100%;
+        height: auto;
+    }
+
+    .styleBlock {
+        padding-left: 1rem;
+    }
+
+    .beautyBlock h3 {
+        font-size: 2rem;
+    }
+
+    .styleBlock h3 {
+        font-size: 2.5rem;
+    }
+
+    .styleBlock p {
+        font-size: 1rem;
+    }
+
+    .offerBlock {
+        justify-content: center;
+    }
+
+    .offerBlock h4 {
+        font-size: 3rem;
+    }
+
+    .offerBlock h5 {
+        font-size: 1.5rem;
+    }
+
+    .newBlock h2 {
+        font-size: 3rem;
+    }
+
+    .newCarBox {
+        padding-right: 0rem;
+    }
+
+    .copyRightBody h3 {
+        font-size: 3.5rem;
+    }
+
+}
+
+@media(min-width:769px) and (max-width:992px) {
+
+    .grid-1,   
+    .grid-2,
+    .grid-3 {
+        grid-template-columns: 1fr 1fr;
+        padding: 0rem 1rem;
+    }
+
+    .grid-4 {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        padding: 0rem 1rem;
+    }
+
+    .logo {
+        width: 5rem;
+        padding: 1rem 0rem;
+    }
+
+    .navBox1 li {
+        font-size: 1.5rem;
+        display: flex;
+        justify-content: end;
+    }
+
+    .heroBox {
+        display: flex;
+        justify-content: start;
+    }
+
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero p {
+        font-size: 1.5rem;
+    }
+
+    .heroBlock .button {
+        width: 20rem;
+        font-size: 1.5rem;
+        padding: 1rem;
+    }
+
+    .brownCar {
+        width: 100%;
+        margin-left: 0rem;
+    }
+
+    .modelBlock {
+        flex-direction: column;
+        gap: 5rem;
+    }
+
+    .model1,
+    .model2,
+    .model3,
+    .model4,
+    .model5 {
+        width: 100%;
+        height: auto;
+    }
+
+    .modelBlock {
+        font-size: 3rem;
+        margin-left: 22rem;
+    }
+}
