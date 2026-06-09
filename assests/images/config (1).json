@@ -1,0 +1,21 @@
+{
+    "baseUrl": "https://graph.facebook.com",
+    "version": "v22.0",
+    "waba_id": "843932838809231",
+    "method": "POST",
+    "endpoint": "messages",
+    "params": null,
+    "access_token": "EAFn9FA6ZAVCQBQFo8mO65KZBIJ9EV3UEIWeZCejKFapgbrGFcbF73daVleZA5ImO9N6K2J1YqASwpRSHRAKAfVh47UnUrDjWagxePzC93L1hj5vlQp1PWP5WZCiK7M6aws3qmyN8xicUVqHdr8LR1UfZAYY9onvSapCw7LlaNGopjgDdDsNZAsVl9eZACxHQq8A9K8ZAiZAUlDY7gDZAsD5T2d9pmNLNmXheZBPGhI1e5zLa0VCpIqIkQCrGXsytXdIaLK8xwFvVrSF9TWOS8ZBY0uBa5jt5b1gZDZD",
+    "verified_name": "Tibura",
+    "body":{
+    "messaging_product": "whatsapp",
+    "to": "917397523214",
+    "type": "template",
+    "template": {
+      "name": "hello_world",
+      "language": {
+        "code": "en_US"
+      }
+    }
+  }
+}

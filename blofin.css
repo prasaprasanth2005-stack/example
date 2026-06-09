@@ -10,11 +10,11 @@ body {
     /* border: 1px solid red; */
 }
 
-.navBar {
+.navBarContainer {
     display: flex;
     justify-content: start;
     align-items: center;
-    margin-bottom:15rem;
+    margin-bottom: 15rem;
 }
 
 .navigation {
@@ -35,12 +35,15 @@ a {
     color: white;
 }
 
-.card {
-    color: white;
+.symbol {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .welcome {
     font-family: "Nunito Sans", serif;
+    color: white;
     font-size: 4rem;
     display: flex;
     flex-direction: column;
@@ -53,7 +56,7 @@ a {
     margin-left: 45rem;
 }
 
-.card h6 {
+.navBar h6 {
     font-family: "Nunito Sans", serif;
     width: 70%;
     color: gray;
@@ -64,10 +67,14 @@ a {
 }
 
 .blofinContent {
-    margin-left: 45rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 25rem;
 }
 
-.card h3 {
+.navBar h3 {
     font-family: "Nunito Sans", serif;
     color: white;
     font-size: 3rem;
